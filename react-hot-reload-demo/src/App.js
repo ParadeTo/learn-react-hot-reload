@@ -1,8 +1,9 @@
 import React from 'react'
 import {Cpn1} from './Cpn1'
 import {Cpn2} from './Cpn2'
+import {hot} from 'react-hot-loader/root'
 
-export default function App() {
+function App() {
   return (
     <div>
       <h1>React App</h1>
@@ -15,3 +16,5 @@ export default function App() {
     </div>
   )
 }
+
+export default hot(App)
